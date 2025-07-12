@@ -8,9 +8,10 @@ import { Menu, X } from 'lucide-react'
 const navItems = [
   { label: 'Accueil', href: '/' },
   { label: 'À propos', href: '/about' },
-  { label: 'Services', href: '/services' },
+  { label: 'Services', href: '/service' },
   { label: 'Contact', href: '/contact' },
 ]
+
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
